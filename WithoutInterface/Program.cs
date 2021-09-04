@@ -18,9 +18,9 @@ namespace WithoutInterface
             Console.Write("Pickup (dd/MM/yyyy hh:mm): ");
             DateTime startDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
             Console.Write("Return (dd/MM/yyyy hh:mm): ");
-            DateTime finishtDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
+            DateTime finishDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
 
-            CarRental carRental = new CarRental(startDate, finishtDate, vehicle);
+            CarRental carRental = new CarRental(startDate, finishDate, vehicle);
 
             Console.Write("Enter price per hour: ");
             double pricePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
