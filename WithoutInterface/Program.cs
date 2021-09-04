@@ -31,7 +31,7 @@ namespace WithoutInterface
             rentalService.ProcessInvoice(carRental);
 
             Console.WriteLine("INVOICE:");
-            Console.Write(carRental.Invoice);
+            Console.WriteLine(carRental.Invoice);
         }
     }
 }

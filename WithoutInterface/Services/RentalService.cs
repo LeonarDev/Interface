@@ -34,7 +34,7 @@ namespace WithoutInterface.Services
 
             double tax = _brazilTaxService.Tax(basicPayment);
 
-            Invoice invoice = new Invoice(basicPayment, tax);
+            carRental.Invoice = new Invoice(basicPayment, tax);
         }
     }
 }
