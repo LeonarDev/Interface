@@ -1,4 +1,4 @@
-﻿namespace WithoutInterface.Entities
+﻿namespace Interface.Entities
 {
     class Vehicle
     {

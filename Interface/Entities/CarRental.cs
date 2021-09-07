@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WithoutInterface.Entities
+namespace Interface.Entities
 {
     class CarRental
     {
